@@ -1,0 +1,236 @@
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: transparent;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: #ede8e9;
+    transition: background-color 0.3s ease, height 0.3s ease; /* Add height transition */
+  }
+  
+  
+
+
+
+  .Gift{
+
+    display: flex;
+  }
+  
+  .texth6{
+    color: rgb(209, 38, 109);
+    font-size: small;
+    font-style: italic;
+  }
+
+
+
+  
+  .logo {
+    object-fit: cover;
+    width: 3rem;
+    color: #88fc4e;
+    /* height: 5rem; */
+
+  }
+  
+  #Hide {
+    display: none;
+  }
+
+
+
+.icons ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    align-items: center;
+    text-align: center;
+    
+}
+
+
+.icons ul li{
+
+    list-style:  none;
+    font-size: 14px;
+    color: rgba(93, 37, 60, 0.808);
+
+
+
+}
+
+
+  
+  .desktopMenuListItem {
+    margin: 1rem;
+    cursor: pointer;
+    font-weight: 500;
+    color: rgb(209, 38, 109);
+    font-size: 13px;
+
+  }
+  
+  .desktopMenuListItem:hover {
+    color:  #6c3e54;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid  #f7298c;
+  }
+  
+  .desktopMenuBtn {
+    background-color: #FED7EA;
+    color: black;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    border-radius: 2rem;
+  }
+  
+  .desktopMenuImg {
+    margin: 0.5rem;
+  }
+  
+  .desktopMenuBtn:hover {
+    background-color: rgb(30, 30, 30);
+    transition: all 1s ease-in;
+    color: rgb(236, 19, 200);
+    cursor: pointer;
+  }
+  
+  .menu {
+    display: none;
+    /* display: block; */
+  }
+  
+  @media only screen and (max-width: 575px) {
+    /* @media only screen and (max-width: 786px) { */    /* @media only screen and (max-width: 786px) { */
+    .desktopMenu {
+      display: none;
+    }
+  
+    .menu {
+      display: block;
+      cursor: pointer;
+  
+    }
+  
+    .desktopMenuBtn {
+      display: none;
+      /* width: 5rem; */
+      background: #88fc4e;
+      color: rgb(9, 1, 1);
+    }
+  
+    #Hide {
+      display: block;
+    }
+  
+    .desktopMenu {
+      display: none;
+      /* color: rgb(11, 209, 21); */
+    }
+  
+    .desktopMenu.open {
+      /* Add styles for open state */
+      display: block;
+      /* left: -1rem; */
+      position: absolute;
+      left: -2rem;
+      top: 6rem;
+      background-color: #f8f6f3;
+      width: 108%;
+      text-align: center;
+      height: 50vh;
+      border-radius: 1rem;
+      padding: 1.5rem;
+      transition: all 0.3s ease-in;
+      overflow: hidden;
+    }
+  
+    .desktopMenuListItem {
+      display: block;
+      cursor: pointer;
+    }
+  
+    .menu {
+      display: block;
+      cursor: pointer;
+    }
+  }
+  
+  
+  
+  .navbar.scrolling {
+    background-color: #212020;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+
+
+  .navbar.scrolling {
+    background-color: #FFD1DA;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+
+
+      @media only screen and (max-width: 800px) {
+
+        .desktopMenuListItem {
+         
+            font-size: 10px;
+        
+          }
+
+          .desktopMenu {
+            display: none;
+            /* color: rgb(11, 209, 21); */
+          }
+
+
+
+
+          .desktopMenu.open {
+            /* Add styles for open state */
+            display: flex;
+            flex-direction: column;
+            /* left: -1rem; */
+            justify-content:space-around;
+            position: absolute;
+            left: -2rem;
+            top: 6rem;
+            background-color: #f8f6f3;
+            width: 108%;
+            text-align: center;
+            height: 50vh;
+            border-radius: 1rem;
+            padding: 1.5rem;
+            transition: all 0.3s ease-in;
+            overflow: hidden;
+          }
+
+
+
+
+
+
+          .menu {
+            display: block;
+            cursor: pointer;
+          }
+
+
+          .icons{
+            display: none;
+          }
+      }

@@ -1,0 +1,52 @@
+
+
+
+
+
+#Customerssaying {
+    margin-top: 3rem;
+    min-height: calc(100vh - 4rem);
+    width: 100%;
+    max-width: 90rem;
+  }
+  
+  .Customerssaying_Text {
+    padding: 2rem;
+    margin-left: 3rem;
+    color: rgba(236, 19, 200, 0.628);
+  }
+  
+  .Customerssaying_Text h1 {
+    font-weight: 500;
+  }
+  
+  .Customerssaying_Text p {
+    margin-top: 1rem;
+    color: black;
+  }
+  
+  /* Responsive Styles for Small Devices */
+  @media screen and (max-width: 576px) {
+    .Customerssaying_Text {
+        padding: 0rem;
+        margin-left: 1rem;
+      /* margin-left: 3px; Adjust margin for small devices */
+
+    }
+.Customerssaying_Text h1 {
+    font-weight: 400;
+    font-size: 20px;
+    /* text-align: center; */
+  }
+
+  .Customerssaying_Text p {
+    margin-top: 1rem;
+    color: black;
+    font-size: small;
+  }
+
+
+
+
+  }
+  

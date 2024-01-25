@@ -1,0 +1,78 @@
+   /* Ourpromiseyou.css */
+
+#Ourpromiseyou {
+    margin-top: 5rem;
+    background: #eee;
+    padding: 20px;
+  }
+  
+  .Ourpromiseyou_Text h1 {
+    padding: 2rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    color: rgba(236, 19, 200, 0.628);
+  }
+  
+  .Ourpromiseyou_Cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* padding: 2rem; */
+  }
+  
+  .Ourpromiseyou_Card {
+    border: 1px solid #ddd;
+    background-color:#03063795;
+    padding: 20px;
+    border-radius: 1rem;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    margin: 10px;
+    max-width: 300px;
+    animation: scaleUp 1.5s infinite;
+  }
+  
+  /* .Ourpromiseyou_Card:hover {
+    animation: none;
+    transform: scale(1.05);
+  } */
+  
+  .Ourpromiseyou_IMG img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .Ourpromiseyou_CardText {
+    margin-top: 20px;
+  }
+  
+  .Ourpromiseyou_CardText h1 {
+    font-size: 20px;
+  }
+  
+  .Ourpromiseyou_CardText p {
+    font-size: 14px;
+    margin-top: 1rem;
+  }
+  
+  /* Keyframes animation */
+  @keyframes scaleUp {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .Ourpromiseyou_Card {
+      max-width: 100%;
+    }
+   
+  }
+  

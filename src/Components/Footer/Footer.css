@@ -1,0 +1,99 @@
+
+
+
+
+.Ap {
+    text-align: center;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFD1DA;
+    color: rgb(5, 0, 0);
+    padding: 20px;
+  }
+  
+  .footer-content {
+    max-width: 300px;
+    /* margin-top: 5rem; */
+
+
+  }
+
+
+
+  #logo{
+    width: 100px;
+    margin-bottom: 2rem;
+  }
+  
+  .Lists {
+    /* list-style-type: none; */
+    list-style: none;
+    padding: 0;
+    padding: 1rem;
+    /* margin: 10px; */
+  }
+  
+
+ .footer-content .list{
+margin: 10px;
+
+  }
+
+
+  a {
+    text-decoration: none;
+    color: #130101;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* .logo {
+    max-width: 200px;
+    height: auto;
+  } */
+
+
+
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .image2 {
+    max-width: 200px;
+    margin-bottom: 10px;
+    height: auto;
+    animation: rotate 4s linear infinite; /* Adjust the duration and timing function as needed */
+  }
+  
+  
+  
+  
+  .image2:hover{
+    transform: rotatey(180deg);
+
+  }
+
+
+  
+  /* Responsive styles */
+  @media only screen and (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-content {
+      margin-bottom: 20px;
+    }
+  }
+  

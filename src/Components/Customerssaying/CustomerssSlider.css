@@ -1,0 +1,49 @@
+/* Add these styles to your CSS file */
+
+.customerFeedbackCard {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  margin: 20px;
+  background-color: rgba(101, 103, 131, 0.463);
+}
+
+.customerRating {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.star {
+  color: gold;
+}
+
+.customerName {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.customerComments {
+  margin-top: 1rem;
+  font-size: small;
+  font-style: normal;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .customerFeedbackCard {
+    width: 100%; /* Make the card take full width on smaller screens */
+  }
+
+  .customerRating {
+    font-size: 18px; /* Adjust font size for smaller screens */
+  }
+
+  .customerName {
+    font-size: 16px; /* Adjust font size for smaller screens */
+  }
+
+  .customerComments {
+    font-size: 12px; /* Adjust font size for smaller screens */
+  }
+}

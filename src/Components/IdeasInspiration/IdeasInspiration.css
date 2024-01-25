@@ -1,0 +1,96 @@
+#IdeasInspiration {
+    background: #eee;
+    margin-top: 5rem;
+    min-height: calc(100vh - 4rem);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .IdeasInspiration_Text {
+    padding: 2rem;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    color: rgba(236, 19, 200, 0.628);
+  }
+  
+  .IdeasInspiration_Text h1 {
+    font-size: 35px;
+  }
+  
+  .IdeasInspiration_Text p {
+    color: gray;
+    text-align: justify;
+    margin-top: 1rem;
+    font-size: 14px;
+    max-width: 350px; /* Adjust maximum width for better responsiveness */
+  }
+  
+  .IdeasInspiration_Image {
+    flex: 1;
+    margin-top: 5rem;
+    text-align: center;
+  }
+  
+  /* Adjust image width for responsiveness */
+  .IdeasInspiration_Image img {
+    max-width: 100%;
+    border-radius: 10px;
+    height: auto;
+    animation: slideUp 1.5s ease-in-out infinite alternate;
+  }
+  
+  /* Keyframes for the slideUp animation */
+  @keyframes slideUp {
+    0% {
+      transform: translateY(50px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .IdeasInspiration_list {
+    padding: 2rem;
+  }
+  
+  .IdeasInspiration_list li {
+    line-height: 2rem;
+    color: rgb(225, 18, 18);
+    font-size: medium;
+    font-weight: 500;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    #IdeasInspiration {
+      flex-direction: column; /* Stack elements vertically on small screens */
+      align-items: center; /* Center elements vertically on small screens */
+    }
+  
+    .IdeasInspiration_Text {
+      margin: 0;
+      text-align: center;
+      padding: 1rem; /* Adjust padding for better spacing on small screens */
+    }
+  
+    .IdeasInspiration_Image {
+      margin-top: 2rem;
+      max-width: 100%; /* Make the image responsive */
+      border-radius: 10px; /* Keep the border-radius as it is */
+    }
+  
+    .IdeasInspiration_list {
+      text-align: center;
+      padding: 1rem; /* Adjust padding for better spacing on small screens */
+    }
+  
+    .IdeasInspiration_list li {
+      line-height: 1.5rem; /* Adjust line-height for better spacing on small screens */
+      font-size: 14px; /* Adjust font size for better readability on small screens */
+   /* padding: 1rem; */
+   
+   
+    }
+  }
+  
