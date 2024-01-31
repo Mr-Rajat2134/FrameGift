@@ -10,7 +10,7 @@ import logo2 from '../images/Logo2.png'
 import { Divider } from '@mui/material';
 import { Link } from 'react-scroll';
 import { Parallax } from 'react-parallax';
-import BG from '../images/FooterBG.png'
+import BG from '../images/Footerbg.png'
 
 
 function App() {
