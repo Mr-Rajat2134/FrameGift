@@ -1,4 +1,3 @@
-
 import './App.css'
 import Customerssaying from './Components/Customerssaying/Customerssaying'
 import Framer from './Components/Framers/Framer'
@@ -9,22 +8,32 @@ import Ourpromiseyou from './Components/Ourpromiseyou/Ourpromiseyou'
 import Slider from './Components/Sliders/Slider'
 import palette from './Components/palette'
 import Footer from './Components/Footer/Footer'
+import AnniversaryFramers from './Components/AnniversaryFramers/AnniversaryFramers'
+import ValentineFramers from './Components/ValentineFramers/ValentineFramers'
+import { Parallax } from 'react-parallax'
+import Poster from '../src/Components/images/poster5.webp'
+
+
+
 
 function App() {
- 
   return (
     <>
-  <Navbar/>
-   <Slider/>
-  <Framer/>
-  <Framersprints/>
-  <IdeasInspiration/>
-  <Ourpromiseyou/>
-  <Customerssaying/>
-  <Footer/>
- 
+      <Navbar />
+     
+        <Slider />
+        <Framer />
+       
+        <Framersprints />
+        <AnniversaryFramers />
+        <ValentineFramers />
+        <Parallax blur={5}  strength={-200}   bgImage={Poster} bgImageAlt="the cat">
+        <IdeasInspiration />
+        <Ourpromiseyou />
+        </Parallax>
+        <Customerssaying />
 
-
+      <Footer />
     </>
   )
 }

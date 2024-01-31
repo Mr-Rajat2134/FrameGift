@@ -1,0 +1,13 @@
+#AnniversaryFramers {
+    background: #eee;
+      margin-top: 2rem;
+      min-height: calc(100vh - 4rem);
+      width: 100%;
+      max-width: 90rem;
+    }
+    
+    .AnniversaryFramers_Text {
+      padding: 2rem;
+      margin-left: 3rem;
+      color:rgba(236, 19, 200, 0.628);
+    }

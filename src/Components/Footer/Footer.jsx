@@ -5,14 +5,20 @@ import React from 'react';
 import './Footer.css';
 
 // import { Link } from 'react-router-dom';
-import logo from '../images/Logo.png'
+import logo from '../images/LogoF.png'
 import logo2 from '../images/Logo2.png'
 import { Divider } from '@mui/material';
 import { Link } from 'react-scroll';
+import { Parallax } from 'react-parallax';
+import BG from '../images/FooterBG.png'
+
 
 function App() {
   return (
     <div className="Ap">
+     <Parallax blur={10} bgImage={BG} bgImageAlt="the cat" strength={200}>
+
+  
       {/* Your main content goes here */}
 
       <footer>
@@ -45,6 +51,7 @@ function App() {
           </div>
         </div>
       </footer>
+      </Parallax>
     </div>
   );
 }

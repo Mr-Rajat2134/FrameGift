@@ -1,5 +1,6 @@
 #Framesprints {
   background: #eee;
+
     margin-top: 2rem;
     min-height: calc(100vh - 4rem);
     width: 100%;
@@ -97,4 +98,27 @@
       width: 100%;
       max-width: 400px;
   }
+
+ 
+
+
+}
+
+
+
+
+@media only screen and (max-width: 575px) {
+
+
+  .Framesprints_Text p {
+
+    /* text-transform:lowercase; */
+    font-size: 15px;
+    /* text-decoration:double; */
+    /* text-align:start; */
+    /* mar */
+  }
+
+
+
 }

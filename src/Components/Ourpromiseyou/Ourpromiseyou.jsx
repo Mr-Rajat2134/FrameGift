@@ -3,10 +3,14 @@ import "./Ourpromiseyou.css";
 import happiness from '../images/happiness.png'
 import trusted from '../images/trusted.png'
 import crop from '../images/corp.png'
+import { Parallax } from "react-parallax";
+import Poster from '../images/Poster5.webp'
+
 
 const Ourpromiseyou = () => {
   return (
     <div id="Ourpromiseyou">
+       
       <div className="Ourpromiseyou_Text">
         <h1>Our promise to you!</h1>
       </div>
@@ -48,6 +52,7 @@ const Ourpromiseyou = () => {
           </div>
         </div>
       </div>
+   
     </div>
   );
 };

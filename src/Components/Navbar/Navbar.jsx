@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import ChatBubbleOutlineIcon from "@mui/icons-material/ChatBubbleOutline";
 import "./Navbar.css";
-import Logo from "../images/Logo.png";
+import Logo from "../images/LogoF.png";
 import { Link } from "react-scroll";
 import MenuIcon from "@mui/icons-material/Menu";
 
@@ -45,7 +45,7 @@ const Navbar = () => {
           <img src={Logo} alt="" width="" className="logo" />
         </Link>
 
-        <h6 className="texth6">FramerGIft</h6>
+        {/* <h6 className="texth6">FramerGIft</h6> */}
       </div>
 
       {/* Desktop Menu */}
@@ -76,7 +76,7 @@ const Navbar = () => {
           {/* Birthday Framers */}
         </Link>
         <Link
-          to="Resume"
+          to="AnniversaryFramers"
           activeClass="active"
           spy={true}
           smooth={true}

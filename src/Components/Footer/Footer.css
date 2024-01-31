@@ -4,12 +4,14 @@
 
 .Ap {
     text-align: center;
+    margin-top: 2rem;
   }
   
   .footer-container {
+
     display: flex;
     justify-content: space-around;
-    background-color: #FFD1DA;
+    /* background-color: #FFD1DA; */
     color: rgb(5, 0, 0);
     padding: 20px;
   }
@@ -21,11 +23,13 @@
 
   }
 
-
+ul li{
+  list-style: none;
+}
 
   #logo{
-    width: 100px;
-    margin-bottom: 2rem;
+    width: 200px;
+    margin-bottom: 4rem;
   }
   
   .Lists {

@@ -36,8 +36,9 @@
   
   .logo {
     object-fit: cover;
-    width: 3rem;
-    color: #88fc4e;
+    width: 6rem;
+    /* position: relative; */
+    /* color: #88fc4e; */
     /* height: 5rem; */
 
   }
@@ -61,12 +62,17 @@
 .icons ul li{
 
     list-style:  none;
+ 
     font-size: 14px;
     color: rgba(93, 37, 60, 0.808);
 
 
 
 }
+
+
+
+
 
 
   
@@ -76,6 +82,8 @@
     font-weight: 500;
     color: rgb(209, 38, 109);
     font-size: 13px;
+  
+ 
 
   }
   
@@ -83,6 +91,7 @@
     color:  #6c3e54;
     padding-bottom: 0.5rem;
     border-bottom: 3px solid  #f7298c;
+    text-decoration: none;
   }
   
   .desktopMenuBtn {
@@ -153,18 +162,21 @@
       height: 50vh;
       border-radius: 1rem;
       padding: 1.5rem;
-      transition: all 0.3s ease-in;
+ 
       overflow: hidden;
     }
   
     .desktopMenuListItem {
       display: block;
       cursor: pointer;
+      font-size: larger;
+
     }
   
     .menu {
       display: block;
       cursor: pointer;
+      transition: all 0.3s ease-in;
     }
   }
   
@@ -188,7 +200,7 @@
 
         .desktopMenuListItem {
          
-            font-size: 10px;
+            font-size: 14px;
         
           }
 
