@@ -11,7 +11,7 @@ import Footer from './Components/Footer/Footer'
 import AnniversaryFramers from './Components/AnniversaryFramers/AnniversaryFramers'
 import ValentineFramers from './Components/ValentineFramers/ValentineFramers'
 import { Parallax } from 'react-parallax'
-import Poster from '../public/images/poster5.webp'
+import Poster from '../public/images/Poster5.webp'
 
 
 
