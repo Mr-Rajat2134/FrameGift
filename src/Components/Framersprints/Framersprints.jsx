@@ -70,12 +70,14 @@ const Framersprints = () => {
       </div>
       <Box sx={{
         display: 'flex',
+        justifyContent:'center',
+        // flex:'rap',
         flexDirection: { xs: 'column', sm: 'row' }, // Column layout on small screens, row layout on larger screens
-        paddingLeft: { xs: 0, sm: '5rem' }, // No left padding on small screens, 5rem left padding on larger screens
+        paddingLeft: { xs: '5rem', sm: '1rem' }, // No left padding on small screens, 5rem left padding on larger screens
         gap: '2rem'
       }}>
         {itemsToShow.map((item) => (
-          <Card key={item.id} sx={{ maxWidth: 445, bgcolor: 'none', marginBottom: '1rem',borderRadius:"0.5rem" }}>
+          <Card key={item.id} sx={{ maxWidth: 245, bgcolor: 'none', marginBottom: '1rem',borderRadius:"0.5rem" }}>
             <CardMedia
               component="img"
               alt={item.title}
