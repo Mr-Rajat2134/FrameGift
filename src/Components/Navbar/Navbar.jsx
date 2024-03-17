@@ -97,7 +97,7 @@ const Navbar = () => {
           className="desktopMenuListItem"
           onClick={() => setOpen(false)}
         >
-          Valentine Framers
+      Brithday Framers
         </Link>
         <Link
           to="IdeasInspiration"
