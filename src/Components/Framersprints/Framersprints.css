@@ -1,6 +1,6 @@
 #Framesprints {
   background: #eee;
-
+  /* border-radius: 10px; */
     margin-top: 2rem;
     min-height: calc(100vh - 4rem);
     width: 100%;

@@ -1,11 +1,3 @@
-
-
-
-
-
-
-
-
 import React from 'react';
 import './IdeasInspiration.css';
 import   InspirationIMG1 from '../images/InspirationIMG1.jpg'

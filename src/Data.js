@@ -10,49 +10,57 @@ export const data = [
 {
     id:1,
     Image:CardIMG1,
-    title:"Dummy",
+    title:"Designer Frame with Photo",
+    unicid:'201',
     price:200
 },
 {
     id:2,
     Image:CardIMG2,
-    title:"Dummy",
+    title:"Designer Frame with Photo",
+    unicid:'201',
     price:200
 },
 {
     id:3,
     Image:CardIMG3,
-    title:"Dummy",
+    title:"Designer Frame with Photo",
+    unicid:'201',
     price:200
 },
 {
     id:4,
     Image:CardIMG4,
-    title:"Dummy",
+    title:"Designer Frame with Photo",
+    unicid:'201',
+    price:200
+},
+{
+    id:5,
+    Image:CardIMG5,
+    title:"Designer Frame with Photo",
+    unicid:'201',
     price:200
 },
 {
     id:5,
     Image:CardIMG5,
     title:"Dummy",
+    unicid:'201',
     price:200
 },
 {
     id:5,
     Image:CardIMG5,
     title:"Dummy",
+    unicid:'201',
     price:200
 },
 {
     id:5,
     Image:CardIMG5,
     title:"Dummy",
-    price:200
-},
-{
-    id:5,
-    Image:CardIMG5,
-    title:"Dummy",
+    unicid:'201',
     price:200
 },
 // {

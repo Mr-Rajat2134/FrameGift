@@ -1,103 +1,80 @@
 
 
-
-
-.Ap {
-    text-align: center;
-    margin-top: 2rem;
-  }
-  
-  .footer-container {
-
-    display: flex;
-    justify-content: space-around;
-    /* background-color: #FFD1DA; */
-    color: rgb(5, 0, 0);
-    padding: 20px;
-  }
-  
-  .footer-content {
-    max-width: 300px;
-    /* margin-top: 5rem; */
-
-
-  }
-
-ul li{
-  list-style: none;
+.footer {
+  background-color: rgb(74, 71, 71);
+  color: #fefefe;
+  /* position: fixed; */
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  margin-top: 1rem;
 }
 
-  #logo{
-    width: 200px;
-    margin-bottom: 4rem;
-  }
-  
-  .Lists {
-    /* list-style-type: none; */
-    list-style: none;
-    padding: 0;
-    padding: 1rem;
-    /* margin: 10px; */
-  }
-  
+.footer .heading {
+  color: #fefefe;
+  max-width: 1010px;
+  width: 90%;
+  text-transform: uppercase;
+  margin: 0 auto;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
 
- .footer-content .list{
-margin: 10px;
+.footer .content {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1.5rem;
+}
 
-  }
+.footer .content p {
+  margin-bottom: 1.3rem;
+}
 
+.footer .content a {
+  text-decoration: none;
+  color: #fefefe;
+}
 
-  a {
-    text-decoration: none;
-    color: #130101;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  /* .logo {
-    max-width: 200px;
-    height: auto;
-  } */
+.footer .content a:hover {
+  /* border-bottom: 1px solid #971717; */
+}
 
+.footer .content h4 {
+  margin-bottom: 1.3rem;
+  font-size: 19px;
+}
 
+footer {
+  text-align: center;
+  /* margin-bottom: 2rem; */
+}
 
-  @keyframes rotate {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-  
-  .image2 {
-    max-width: 200px;
-    margin-bottom: 10px;
-    height: auto;
-    animation: rotate 4s linear infinite; /* Adjust the duration and timing function as needed */
-  }
-  
-  
-  
-  
-  .image2:hover{
-    transform: rotatey(180deg);
+footer hr {
+  margin: 2rem 0;
+}
 
+@media (max-width: 767px) {
+  .footer .content {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
   }
 
-
-  
-  /* Responsive styles */
-  @media only screen and (max-width: 768px) {
-    .footer-container {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .footer-content {
-      margin-bottom: 20px;
-    }
+  .footer {
+    position: unset;
   }
-  
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .footer .content,
+  .footer {
+    font-size: 14px;
+  }
+}
+
+@media (orientation: landscape) and (max-height: 500px) {
+  .footer {
+    position: unset;
+  }
+}

@@ -27,10 +27,10 @@ function App() {
         <Framersprints />
         <AnniversaryFramers />
         <ValentineFramers />
-        <Parallax blur={5}  strength={-200}   bgImage={Poster} bgImageAlt="the cat">
+        {/* <Parallax blur={5}  strength={-200}   bgImage={Poster} bgImageAlt="the cat"> */}
         <IdeasInspiration />
         <Ourpromiseyou />
-        </Parallax>
+        {/* </Parallax> */}
         <Customerssaying />
 
       <Footer />

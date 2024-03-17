@@ -1,60 +1,75 @@
-
-
-
 import React from 'react';
-import './Footer.css';
+import './Footer.css'
+import { AppBar, Toolbar, Typography } from '@mui/material';
 
-// import { Link } from 'react-router-dom';
-import logo from '../images/LogoF.png'
-import logo2 from '../images/Logo2.png'
-import { Divider } from '@mui/material';
-import { Link } from 'react-scroll';
-import { Parallax } from 'react-parallax';
-import BG from '../images/Footerbg.png'
-
-
-function App() {
+const Footer = () => {
   return (
-    <div className="Ap">
-     <Parallax blur={10} bgImage={BG} bgImageAlt="the cat" strength={200}>
-
-  
-      {/* Your main content goes here */}
-
-      <footer>
-        <Divider/>
-        <div className="footer-container">
-          <div className="footer-content">
-            <Link   to='/'>
-            <img src={logo} alt="Logo" id="logo" />
-            </Link>
-            <h2>Contact Us</h2>
-            <p>Email: info@example.com</p>
-            <p>Phone: +1 (123) 456-7890</p>
-          </div>
-
-          <div className="footer-content">
-            <img src={logo2} alt="Image 2"     className="image2" />
-            <h2>Quick Links</h2>
-            <ul   className='Lists'  >
-              {/* <li className='list'    ><a href="#">All</a></li>
-              <li  className='list'   ><a href="#">Framed Prints</a></li>
-              <li className='list'   ><a href="#">Anniversary Framers</a></li>
-              <li className='list'   ><a href="#">Valentine Framers</a></li>
-              <li className='list'   ><a href="#">Framer by Typs</a></li> */}
-              <li className='list'    ><a href="#">All</a></li>
-              <li  className='list'   ><a href="#">Framed Prints</a></li>
-              <li className='list'   ><a href="#">Anniversary Framers</a></li>
-              <li className='list'   ><a href="#">Valentine Framers</a></li>
-              <li className='list'   ><a href="#">Framer by Typs</a></li>
-            </ul>
-          </div>
+    <div class="footer">
+      <div class="heading">
+        {/* <h2>Faraz<sup>™</sup></h2> */}
+      </div>
+      <div class="content">
+        <div class="services">
+          <h4>Services</h4>
+          <p><a href="#">Frams Print</a></p>
+          <p><a href="#">Anniversary Frames</a></p>
+          <p><a href="#">Valentine Frames</a></p>
+          <p><a href="#">Birthday  Frames</a></p>
+          <p><a href="#">More....</a></p>
         </div>
+        <div class="social-media">
+          <h4>Social</h4>
+          <p>
+            <a href="#"
+              ><i class="fab fa-linkedin"></i> Linkedin</a
+            >
+          </p>
+          <p>
+            <a href="#"
+              ><i class="fab fa-twitter"></i> Twitter</a
+            >
+          </p>
+          <p>
+            <a href="https://github.com/farazc60"
+              ><i class="fab fa-github"></i> Github</a
+            >
+          </p>
+          <p>
+            <a href="https://www.facebook.com/codewithfaraz"
+              ><i class="fab fa-facebook"></i> Facebook</a
+            >
+          </p>
+          <p>
+            <a href="https://www.instagram.com/codewithfaraz"
+              ><i class="fab fa-instagram"></i> Instagram</a
+            >
+          </p>
+        </div>
+        <div class="links">
+          <h4>Quick links</h4>
+          <p><a href="#">Home</a></p>
+          <p><a href="#">About</a></p>
+          <p><a href="#">Blogs</a></p>
+          <p><a href="#">Contact</a></p>
+        </div>
+        <div class="details">
+          <h4 class="address">Address</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur <br />
+            adipisicing elit. Cupiditate, qui!
+          </p>
+          <h4 class="mobile">Mobile</h4>
+          <p><a href="#">+91-12225*****</a></p>
+          <h4 class="mail">Email</h4>
+          <p><a href="#">farazc60@gmail.com</a></p>
+        </div>
+      </div>
+      <footer>
+        <hr />
+        © 2022 codewithRajat.
       </footer>
-      </Parallax>
     </div>
   );
-}
+};
 
-export default App;
-
+export default Footer;

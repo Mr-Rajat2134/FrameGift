@@ -88,7 +88,7 @@ const Navbar = () => {
           Anniversary Framers
         </Link>
         <Link
-          to="Projects"
+          to="ValentineFramers"
           activeClass="active"
           spy={true}
           smooth={true}
@@ -100,7 +100,7 @@ const Navbar = () => {
           Valentine Framers
         </Link>
         <Link
-          to="Contact"
+          to="IdeasInspiration"
           activeClass="active"
           spy={true}
           smooth={true}
@@ -109,7 +109,7 @@ const Navbar = () => {
           className="desktopMenuListItem"
           onClick={() => setOpen(false)}
         >
-          Framer by Typs
+          Ideas Inspiration
         </Link>
         <Link
         id="Hide"
