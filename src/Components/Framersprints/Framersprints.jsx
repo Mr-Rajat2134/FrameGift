@@ -95,7 +95,14 @@ const Framersprints = () => {
               </Typography>
             </CardContent>
             <CardActions sx={{ bgcolor: '#FFD1DA', padding: '16px', justifyContent: 'space-between' }}> {/* Adjusted background color, padding, and alignment */}
-              <Button  sx={{color:'red'}}  size="small">Order Now</Button>
+              <Button
+              
+              onClick={() => {
+                const whatsappUrl = `https://wa.me/7987787258?text=I%20want%20to%20order%20${encodeURIComponent(item.title)}%20framed%20print`;
+                window.open(whatsappUrl, '_blank');
+              }}
+              
+              sx={{color:'red'}}  size="small">Order Now</Button>
               {/* <Button size="small">Share</Button> */}
             </CardActions>
           </Card>
